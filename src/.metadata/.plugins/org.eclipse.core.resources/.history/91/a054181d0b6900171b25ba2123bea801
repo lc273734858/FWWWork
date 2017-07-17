@@ -1,0 +1,13 @@
+package FWW.com.RegistCenter;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+@EnableEurekaServer
+public class RegistCenterApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(RegistCenterApplication.class, args);
+	}
+}
